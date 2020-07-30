@@ -10,10 +10,7 @@ function makeGrid() {
       cell.addEventListener('mouseover', e => e.target.classList.add('color'))
     };
   };
-  let test = document.querySelector('.gridcontainer');
-        test.addEventListener('mouseover', function(event) {
-            event.target.remove();
-        })
+  
 
 
   
